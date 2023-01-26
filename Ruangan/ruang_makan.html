@@ -11,12 +11,10 @@
     <title>
         Cetak Cetek Ndasmu
     </title>
-
 </head>
 
 <body>
     <!-- NAVBAR START -->
-
     <nav class="bg-gray-500 border-gray-800 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
             <a href="#" class="flex items-center">
@@ -39,38 +37,52 @@
                 <ul
                     class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
+                        <a href="../index.html"
+                            class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Ruang
+                            Utama</a>
+                    </li>
+                    <li>
+                        <a href="../Ruangan/ruang_keluarga.html"
+                            class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Ruang
+                            Keluarga</a>
+                    </li>
+                    <li>
                         <a href="#"
-                            class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Ruang Utama</a>
+                            class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                            aria-current="page">Ruang
+                            Makan</a>
                     </li>
                     <li>
-                        <a href="Ruangan/ruang_keluarga.html"
-                            class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Ruang Keluarga</a>
+                        <a href="../Ruangan/ruang_tidur.html"
+                            class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Ruang
+                            Tidur</a>
                     </li>
                     <li>
-                        <a href="Ruangan/ruang_makan.html"
-                            class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Ruang Makan</a>
-                    </li>
-                    <li>
-                        <a href="Ruangan/ruang_tidur.html"
-                            class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Ruang Tidur</a>
-                    </li>
-                    <li>
-                        <a href="Ruangan/ruang_tamu.html"
-                            class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Ruang Tamu</a>
+                        <a href="../Ruangan/ruang_tamu.html"
+                            class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Ruang
+                            Tamu</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <!-- NAVBAR END -->
 
     <div class="flex  justify-center items-center min-h-screen bg-gray-800  gap-4">
+        <div class="flex flex-col gap-2 items-center">
+            <img src="https://o.remove.bg/downloads/ebf3b935-6dc1-414e-86b5-064d739bc484/png-clipart-electricity-meter-computer-icons-electrician-others-electrical-wires-cable-electricity-removebg-preview.png" alt="" >
+            <label for="default-toggle01" class="relative inline-flex items-center cursor-pointer">
+                <input type="checkbox" value="" class="sr-only peer" id="default-toggle01" onchange="ruang_makan()">
+                <div
+                    class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600">
+                </div>
+            </label>
+        </div>   
         <!-- LAMPU 1 -->
         <div class="flex flex-col gap-2 items-center">
-            <img src="assets/images/off.gif" alt="" id="lampu1">
+            <img src="../assets/images/off.gif" alt="" id="lampu1">
             <label for="default-toggle1" class="relative inline-flex items-center cursor-pointer">
-                <input type="checkbox" value="" class="sr-only peer" id="default-toggle1" onchange="saklar()">
+                <input type="checkbox" value="" class="sr-only peer" id="default-toggle1" onchange="ruang_makan()">
                 <div
                     class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600">
                 </div>
@@ -79,43 +91,16 @@
 
         </div>
         <!-- LAMPU 1 END -->
-
-        <!-- LAMPU 2 -->
-        <div class="flex flex-col gap-2 items-center">
-            <img src="assets/images/off.gif" alt="" id="lampu2">
-            <label for="default-toggle2" class="relative inline-flex items-center cursor-pointer">
-                <input type="checkbox" value="" class="sr-only peer" id="default-toggle2" onchange="saklar()">
-                <div
-                    class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600">
-                </div>
-            </label>
+        
 
 
-        </div>
-        <!-- LAMPU 2 END -->
-
-        <!-- LAMPU 3 -->
-        <div class="flex flex-col gap-2 items-center">
-            <img src="assets/images/off.gif" alt="" id="lampu3">
-            <label for="default-toggle3" class="relative inline-flex items-center cursor-pointer">
-                <input type="checkbox" value="" class="sr-only peer" id="default-toggle3" onchange="saklar()">
-                <div
-                    class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600">
-                </div>
-            </label>
-
-
-        </div>
-        <!-- LAMPU 3 END -->
     </div>
 
-
-
+    
     <!-- INI JS SCRIPT START-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
-    <script src="saklar.js" type="application/javascript"></script>
+    <script src="../saklar.js" type="application/javascript"></script>
     <!-- INI JS SCRIPT END -->
-
 </body>
 
 </html>
